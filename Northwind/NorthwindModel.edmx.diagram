@@ -30,6 +30,7 @@
         <EntityTypeShape EntityType="NorthwndModel.Cart" Width="1.5" PointX="5.25" PointY="10.875" />
         <AssociationConnector Association="NorthwndModel.FK_Cart_Customers" />
         <AssociationConnector Association="NorthwndModel.FK_Cart_Products" />
+        <EntityTypeShape EntityType="NorthwndModel.database_firewall_rules" Width="1.5" PointX="7.375" PointY="0.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
