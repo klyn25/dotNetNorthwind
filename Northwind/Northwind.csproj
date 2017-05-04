@@ -143,6 +143,9 @@
     <Compile Include="Customer.cs">
       <DependentUpon>NorthwindModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="database_firewall_rules.cs">
+      <DependentUpon>NorthwindModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Discount.cs">
       <DependentUpon>NorthwindModel.tt</DependentUpon>
     </Compile>

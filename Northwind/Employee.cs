@@ -37,6 +37,8 @@ namespace Northwind
         public string HomePhone { get; set; }
         public string Extension { get; set; }
         public Nullable<int> ReportsTo { get; set; }
+        public System.Guid UserGuid { get; set; }
+        public string Password { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Employee> Employees1 { get; set; }

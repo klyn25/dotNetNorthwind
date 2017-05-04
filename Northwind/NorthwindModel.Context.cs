@@ -15,8 +15,6 @@ namespace Northwind
     
     public partial class NorthwndEntities : DbContext
     {
-        internal readonly object Cart;
-
         public NorthwndEntities()
             : base("name=NorthwndEntities")
         {
@@ -39,5 +37,6 @@ namespace Northwind
         public virtual DbSet<Territory> Territories { get; set; }
         public virtual DbSet<Discount> Discounts { get; set; }
         public virtual DbSet<Cart> Carts { get; set; }
+        public virtual DbSet<database_firewall_rules> database_firewall_rules { get; set; }
     }
 }
