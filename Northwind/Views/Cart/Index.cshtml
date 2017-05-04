@@ -1,0 +1,19 @@
+﻿@model IEnumerable<Cart>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<div id="cart">
+    @foreach (Cart c in Model)
+    {
+        <div>
+            <div>@c.CartID</div>
+            <div class="text-right">
+                <span>@c.ProductID</span>
+            </div>
+            <div class="text-right"></div>
+        </div>
+    }
+</div>
