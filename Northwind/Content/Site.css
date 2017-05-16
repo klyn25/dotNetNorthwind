@@ -74,3 +74,29 @@ textarea {
  -ms-user-select: none;
  user-select: none;
 }
+
+
+.discount-item {
+    background-color: rgba(185, 187, 189, 0.5);
+    border: 2px solid #4404041;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+
+}
+
+.btn-right {
+    float: right;
+    margin-left: 10px !important;
+}
+.clear {
+    clear: both;
+}
+#discounts {
+    position: relative;
+}
+.add {
+    position: relative;
+    top: -38px;
+
+}

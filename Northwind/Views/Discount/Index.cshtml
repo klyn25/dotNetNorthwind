@@ -1,0 +1,22 @@
+﻿@model IEnumerable<Discount>
+@{
+    ViewBag.Title = "Index";
+}
+<div id="discounts">
+    <h2>Northwind Traders Discounts</h2>
+    <button class="btn-right btn-success add">Add</button>
+    <div>
+        @foreach (Discount p in Model)
+        {
+            <div class="discount-item" id="@p.DiscountID">
+                <h3><span id="name_@p.ProductID">@p.Title</span> (@p.Code)</h3>
+                <div class="text-right">
+                    @p.Discount1
+                </div>
+                <p>@p.Description</p>
+                <button class="btn-right btn-success">Edit</button><button class="btn-right btn-danger">Delete</button>
+                <div class="clear"></div>
+            </div>
+        }
+    </div>
+</div>
